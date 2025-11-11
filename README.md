@@ -22,6 +22,8 @@ research to take the research field a step further. Firstly, we create a multice
 
 ## 3. Proposed Method
 
+The implementation code of our proposed laryngeal neoplasm segmentation method is currently under final organization and validation. We aim to release it along with detailed documentation in the coming weeks. Please check back for updates.
+
 ## 4. Data and Results
 
 ### 4.1. MLN-Seg Multicenter Dataset
