@@ -11,8 +11,7 @@ from utils import clip_gradient, adjust_lr
 from tensorboardX import SummaryWriter
 import logging
 import torch.backends.cudnn as cudnn
-from options_cod import opt
-torch.cuda.set_device(1)
+from options_lary import opt
 def WiouWbceLoss(input: object, target: object) -> object:
     weit = 1 + 5 * torch.abs(F.avg_pool2d(target, kernel_size=31, stride=1, padding=15) - target)
     wbce = F.binary_cross_entropy_with_logits(input, target, reduce='none')
