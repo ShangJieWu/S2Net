@@ -6,3 +6,16 @@
 ## 1. Preface
 
 - This repository provides code for *[Benchmarking Laryngeal Neoplasm Segmentation: A Multicenter Dataset and an Effective Method](https://ieeexplore.ieee.org/document/11237038)* IEEE TIP 2025.
+
+## 2. Overview
+
+### 2.1 Abstract
+While accurate and automatic Laryngeal Neoplasm Segmentation (LNS) can benefit the diagnosis and prevention of laryngeal cancers, existing LNS-related works are very limited due to the lack of public datasets. This paper conducts systematic
+research to take the research field a step further. Firstly, we create a multicenter LNS dataset, named as MLN-Seg. Collecting from four hospitals, it has 2,273 laryngeal images with a diversity in resolutions and modalities, where each image is pixel-wise annotated by experienced physicians. Secondly, considering the scarcity of LNS methods and similarity between LNS and Colorectal Polyp Segmentation (CPS) tasks, we collect 15 CPS methods and validate their performance on MLN-Seg. It shows that despite the similarity between the two tasks, existing CPS methods underperform on LNS, especially those with blurry boundaries and camouflaged characteristics. Lastly, considering the LNS challenges, we propose an effective segmentation method, termed Scale-Sensitive Network (S2Net). S2Net scales the feature at each layer of the network up and down and integrates all the scaled features to coarsely localize neoplasm regions. In addition, a Localization Calibration (LC) module is used to refine uncertain areas. By connecting the LC modules from top to down, S2Net can finally accurately segment the laryngeal neoplasms. Extensive tests on MLN-Seg shows that S2Net has better learning ability and generalizability than competing methods. In addition, evaluation on five public datasets shows that S2Net achieves comparable performance in the CPS task.
+
+### 2.2 Framework Overview
+<p align="center">
+  <img width="2279" height="669" alt="Figure5" src="https://github.com/user-attachments/assets/2c69099f-1c4e-4c16-9a3d-22362d02a897" />
+  <br />
+  <em>Figure 1: Overview architecture of our proposed S2Net.</em>
+</p>
