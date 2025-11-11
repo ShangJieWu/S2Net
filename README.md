@@ -24,6 +24,25 @@ research to take the research field a step further. Firstly, we create a multice
 
 The implementation code of our proposed laryngeal neoplasm segmentation method is currently under final organization and validation. We aim to release it along with detailed documentation in the coming weeks. Please check back for updates.
 
+### 3.1. Training/Testing
+
+The training and testing experiments are conducted using [PyTorch](https://pytorch.org/) with one NVIDIA RTX 3090 GPU (or other compatible GPUs).
+
+1. **Configuring your environment (Prerequisites):**
+   - Installing necessary packages: `pip install -r requirements.txt`.
+
+2. **Downloading necessary data:**
+   - Downloading MLN-Seg multicenter dataset (see Section 4.1 for details).
+   - Downloading backbone pretrained weights (e.g., [PVTv2]([https://github.com/whai362/PVT](https://github.com/whai362/PVT/releases/download/v2/pvt_v2_b2.pth)) or other backbones) and place them in `./models/pretrained/`.
+
+3. **Training:**
+  - Run the training script: `python S2Net_train.py`  
+  - You can adjust parameters (e.g., `--batch_size`, `--lr`, `--epochs`) based on your hardware in the configuration file `options_lary.py`.
+
+4. **Testing:**
+   - To evaluate the model, run: `python S2Net_test.py --resume ./cpt/S2Net_best.pth
+   - Results will be saved in `./results/`.
+   - 
 ## 4. Data and Results
 
 ### 4.1. MLN-Seg  Dataset
