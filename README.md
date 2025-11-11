@@ -33,3 +33,20 @@ Our proposed MLN-Seg dataset (for laryngeal neoplasm segmentation) is publicly a
 All experimental results (including qualitative comparison maps between our S2Net and other state-of-the-art methods). You can download the complete results via:
 - **Download Link**: [Baidu Drive](https://pan.baidu.com/s/1sMLALyn6oNVEsCQ2vWrmmA?pwd=z4g2)
 - **Extraction Code**: z4g2
+
+```markdown
+## 5. Citation
+
+Please cite our paper if you find the work useful, thanks!
+
+```bibtex
+@ARTICLE{11237038,
+  author={Yue, Guanghui and Wu, Shangjie and Tian, Ruxian and Lin, Hanhe and Li, Jiaxuan and Yuan, Ting and Lv, Huaiqing and Yu, Zhenkun and Mao, Ning and Song, Xicheng},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Benchmarking Laryngeal Neoplasm Segmentation: A Multicenter Dataset and an Effective Method}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Neoplasms;Image segmentation;Medical diagnostic imaging;Hospitals;Feature extraction;Image resolution;Benchmark testing;Transformers;Location awareness;Larynx;Laryngoscope;laryngeal neoplasm segmentation;mixed-scale fusion;localization calibration},
+  doi={10.1109/TIP.2025.3628504}}
