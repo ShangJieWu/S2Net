@@ -26,7 +26,7 @@ The implementation code of our proposed laryngeal neoplasm segmentation method i
 
 ### 3.1. Training/Testing
 
-The training and testing experiments are conducted using [PyTorch](https://pytorch.org/) with one NVIDIA RTX 3090 GPU (or other compatible GPUs).
+The training and testing experiments are conducted using [PyTorch](https://pytorch.org/) with one NVIDIA RTX 4090 GPU (or other compatible GPUs).
 
 1. **Configuring your environment (Prerequisites):**
 - Installing necessary packages: `pip install -r requirements.txt`.
