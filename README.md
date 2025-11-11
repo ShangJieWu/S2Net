@@ -33,7 +33,7 @@ The training and testing experiments are conducted using [PyTorch](https://pytor
 
 2. **Downloading necessary data:**
 - Downloading MLN-Seg multicenter dataset (see Section 4.1 for details).
-- Downloading backbone pretrained weights (e.g., [PVTv2]([https://github.com/whai362/PVT](https://github.com/whai362/PVT/releases/download/v2/pvt_v2_b2.pth)) or other backbones) and place them in `./models/pretrained/`.
+- Downloading backbone pretrained weights [PVTv2]([https://github.com/whai362/PVT](https://github.com/whai362/PVT/releases/download/v2/pvt_v2_b2.pth)) and place it in `./models/pretrained/`.
 
 3. **Training:**
 - Run the training script: `python S2Net_train.py`  
