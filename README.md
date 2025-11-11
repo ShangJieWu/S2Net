@@ -26,7 +26,7 @@ The implementation code of our proposed laryngeal neoplasm segmentation method i
 
 ## 4. Data and Results
 
-### 4.1. MLN-Seg Multicenter Dataset
+### 4.1. MLN-Seg  Dataset
 Our proposed MLN-Seg dataset (for laryngeal neoplasm segmentation) is publicly available for academic research. You can download it via the following link:
 - **Download Link**: [Baidu Drive](https://pan.baidu.com/s/1mm7Qdpmp1vXxsdQCwaQURQ?pwd=fp63)
 - **Extraction Code**: fp63
