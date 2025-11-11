@@ -19,3 +19,17 @@ research to take the research field a step further. Firstly, we create a multice
   <br />
   <em>Figure 1: Overview architecture of our proposed S2Net.</em>
 </p>
+
+## 3. Proposed Method
+
+## 4. Data and Results
+
+### 4.1. MLN-Seg Multicenter Dataset
+Our proposed MLN-Seg dataset (for laryngeal neoplasm segmentation) is publicly available for academic research. You can download it via the following link:
+- **Download Link**: [Baidu Drive](https://pan.baidu.com/s/1mm7Qdpmp1vXxsdQCwaQURQ?pwd=fp63)
+- **Extraction Code**: fp63
+
+### 4.2. Experimental Results
+All experimental results (including qualitative comparison maps between our S2Net and other state-of-the-art methods). You can download the complete results via:
+- **Download Link**: [Baidu Drive](https://pan.baidu.com/s/1sMLALyn6oNVEsCQ2vWrmmA?pwd=z4g2)
+- **Extraction Code**: z4g2
