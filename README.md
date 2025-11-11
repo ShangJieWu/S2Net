@@ -34,7 +34,6 @@ All experimental results (including qualitative comparison maps between our S2Ne
 - **Download Link**: [Baidu Drive](https://pan.baidu.com/s/1sMLALyn6oNVEsCQ2vWrmmA?pwd=z4g2)
 - **Extraction Code**: z4g2
 
-```markdown
 ## 5. Citation
 
 Please cite our paper if you find the work useful, thanks!
